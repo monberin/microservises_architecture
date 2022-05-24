@@ -1,0 +1,10 @@
+GET http://localhost:8080/facade
+Accept: text/html
+###
+
+POST http://localhost:8080/facade
+Content-type: application/json
+
+"test message"
+
+###
