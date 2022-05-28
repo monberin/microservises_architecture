@@ -1,0 +1,17 @@
+GET http://localhost:9080/facade
+Accept: text/html
+###
+
+POST http://localhost:9080/facade
+Content-type: application/json
+
+"msg 10"
+
+###
+
+POST http://localhost:9080/facade
+Content-type: application/json
+
+"after shutdown"
+
+###
