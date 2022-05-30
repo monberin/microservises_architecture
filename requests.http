@@ -1,0 +1,72 @@
+GET http://127.0.0.1:9080/facade
+Accept: text/html
+###
+
+POST http://127.0.0.1:9080/facade
+Content-type: application/json
+
+{"log":"msg 1","msg":"first"}
+
+###
+
+POST http://127.0.0.1:9080/facade
+Content-type: application/json
+
+{"log":"msg 2","msg":"second"}
+
+###
+
+POST http://127.0.0.1:9080/facade
+Content-type: application/json
+
+{"log":"msg 3","msg":"third"}
+
+###
+
+POST http://127.0.0.1:9080/facade
+Content-type: application/json
+
+{"log":"msg 4","msg":"fourth"}
+
+###
+POST http://127.0.0.1:9080/facade
+Content-type: application/json
+
+{"log":"msg 5","msg":"fifth"}
+
+###
+
+POST http://127.0.0.1:9080/facade
+Content-type: application/json
+
+{"log":"msg 6","msg":"sixth"}
+
+###
+
+POST http://127.0.0.1:9080/facade
+Content-type: application/json
+
+{"log":"msg 7","msg":"seventh"}
+
+###
+
+POST http://127.0.0.1:9080/facade
+Content-type: application/json
+
+{"log":"msg 8","msg":"eighth"}
+
+###
+
+POST http://127.0.0.1:9080/facade
+Content-type: application/json
+
+{"log":"msg 9","msg":"ninth"}
+
+###
+
+POST http://127.0.0.1:9080/facade
+Content-type: application/json
+
+{"log":"msg 10","msg":"tenth"}
+
+###
