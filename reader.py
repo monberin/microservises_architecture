@@ -5,9 +5,8 @@ def reader():
 
     client = hazelcast.HazelcastClient(cluster_name="hw2",
                                            cluster_members=[
-                                               "127.0.0.1:5701",
-                                               "127.0.0.1:5701",
-                                               "127.0.0.1:5701",
+                                               "127.0.0.1:5702",
+                                               "127.0.0.1:5703",
                                            ])
     queue = client.get_queue('bounded_queue').blocking()
 
