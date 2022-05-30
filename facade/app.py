@@ -28,7 +28,6 @@ def post_flow():
     message = {'id': uuid.uuid4(), 'text': request.get_json()}
     logging_service = random.choice(logging_services)
     if is_open(int(logging_service[17:21])):
-        print('here')
         r = requests.post(logging_service, message)
         print(r.text)
         print(r.status_code)
